@@ -60,7 +60,10 @@ The repo root is also a Codex plugin. The plugin provides a compact skill for:
 - Keep small tools independent enough to publish.
 - Make claims testable.
 
-## Author
+## Contributors
 
-Built by Zain Dana Harper as part of a broader body of work around compilers,
-verification surfaces, local state, context discipline, and practical tooling.
+- Zain Dana Harper - author and maintainer.
+- Claude Code - AI coding contributor for implementation and packaging assistance.
+
+The maintainer reviews and owns public release decisions, security posture, and
+final claims.
