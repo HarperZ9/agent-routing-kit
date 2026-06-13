@@ -23,6 +23,11 @@ dependencies = []
 [project.scripts]
 agent-route = "agent_routing_kit.cli:main"
 
+[project.urls]
+Homepage = "https://github.com/HarperZ9/agent-routing-kit"
+Repository = "https://github.com/HarperZ9/agent-routing-kit"
+Issues = "https://github.com/HarperZ9/agent-routing-kit/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
