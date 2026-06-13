@@ -1,6 +1,9 @@
 # Agent Routing Kit
 
-Small, deterministic routing helpers for agentic development workflows.
+Agent Routing Kit is a tiny routing and context-budget utility for agentic
+development work. It makes a task's likely lane visible before a model session
+starts loading files, spending context, or crossing from public utility work
+into private workflow assumptions.
 
 This is the public-safe extraction of a larger private workspace pattern: make
 capability routing explicit, keep context budgets visible, and separate
