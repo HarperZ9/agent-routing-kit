@@ -13,7 +13,7 @@ publishable utility code from private operational systems.
 
 - Scores a task against a small capability catalog.
 - Labels capabilities as `public`, `private`, or `restricted`.
-- Excludes private/restricted lanes by default.
+- Excludes private/restricted lanes by default and reports omitted risk counts.
 - Estimates context usage with a conservative token approximation.
 - Emits concise Markdown or JSON handoff summaries.
 - Ships as both a Python package and a Codex plugin skill.
@@ -59,6 +59,7 @@ The repo root is also a Codex plugin. The plugin provides a compact skill for:
 
 - Prefer deterministic scoring over hidden model state.
 - Keep private and restricted lanes out of default output.
+- Show when private or restricted matches were omitted.
 - Treat routing as advisory, not authority.
 - Keep small tools independent enough to publish.
 - Make claims testable.

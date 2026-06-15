@@ -20,6 +20,24 @@ def test_private_lanes_are_opt_in():
 
     assert all(capability.risk == "public" for capability, _score in default.matches)
     assert any(capability.risk != "public" for capability, _score in included.matches)
+    assert default.excluded_risk_counts == {"private": 1, "restricted": 1}
+    assert included.excluded_risk_counts == {}
+
+
+def test_default_markdown_reports_omitted_private_matches():
+    result = route_task("review private broker credential live payload corridor")
+    markdown = result.to_markdown()
+
+    assert "Private/restricted matches omitted by default" in markdown
+    assert "private=1" in markdown
+    assert "restricted=1" in markdown
+
+
+def test_default_json_reports_omitted_private_counts():
+    result = route_task("review private broker credential live payload corridor")
+    payload = result.to_dict()
+
+    assert payload["excluded_risk_counts"] == {"private": 1, "restricted": 1}
 
 
 def test_context_budget_statuses():
