@@ -3,7 +3,7 @@
 > Deterministic task-routing and context-budget helpers — explicit edges, no deps.
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
+![python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![version](https://img.shields.io/badge/version-0.1.0-informational.svg)
 [![CI](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml)
 ![deps: none](https://img.shields.io/badge/deps-none-success.svg)
@@ -54,6 +54,12 @@ budget = estimate_context("some model-bound context", max_tokens=8000)
 print(result.to_markdown())
 print(budget.status)
 ```
+
+## Usage
+
+See [USAGE.md](USAGE.md) for an install line, the full CLI flag set, the
+importable API, and worked examples with their expected output. A runnable
+end-to-end script lives in [`examples/demo.py`](examples/demo.py).
 
 ## Codex Plugin
 
