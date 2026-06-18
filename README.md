@@ -1,5 +1,14 @@
 # Agent Routing Kit
 
+> Deterministic task-routing and context-budget helpers — explicit edges, no deps.
+
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
+![version](https://img.shields.io/badge/version-0.1.0-informational.svg)
+[![CI](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml)
+![deps: none](https://img.shields.io/badge/deps-none-success.svg)
+[![part of: AI-accountability toolkit](https://img.shields.io/badge/part_of-AI--accountability_toolkit-7a5cff.svg)](https://harperz9.github.io)
+
 Agent Routing Kit is a tiny routing and context-budget utility for agentic
 development work. It makes a task's likely lane visible before a model session
 starts loading files, spending context, or crossing from public utility work
@@ -71,3 +80,8 @@ The repo root is also a Codex plugin. The plugin provides a compact skill for:
 
 The maintainer reviews and owns public release decisions, security posture, and
 final claims.
+
+---
+**Zain Dana Harper** — small tools with explicit edges.
+[Portfolio](https://harperz9.github.io) · [HarperZ9](https://github.com/HarperZ9)
+<sub>Built with Claude Code; reviewed, tested, and owned by me.</sub>
