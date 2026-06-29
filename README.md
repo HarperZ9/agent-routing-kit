@@ -1,5 +1,40 @@
 # Agent Routing Kit
 
+![Agent Routing Kit hero](docs/brand/agent-routing-kit-hero.png)
+
+> Route agent tasks by capability, risk, and context budget before loading files.
+
+Agent Routing Kit is a deterministic routing helper for coding-agent workflows.
+It scores a task against a small capability catalog, marks public/private risk,
+and estimates context usage before a session spends tokens on the wrong lane.
+
+## Why it matters
+
+Large workspaces need explicit routing. A route summary and handoff receipt give
+an agent enough shape to start in the right place without pulling private
+assumptions or unbounded context into a public task.
+
+## Try it
+
+```bash
+python -m pip install -e .
+agent-route "write tests and docs for a small Python CLI" --json
+python -m pytest
+```
+
+## What to test first
+
+- Route a plain coding task and inspect the selected capability.
+- Route a task with `--include-private` and compare omitted risk counts.
+- Import `route_task` and `estimate_context` from Python.
+
+## Current status
+
+Public-safe Python package, CLI, and Codex skill extraction. It is advisory
+routing, not an authorization or policy engine.
+
+## Existing technical notes
+
 > Deterministic task-routing and context-budget helpers — explicit edges, no deps.
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
