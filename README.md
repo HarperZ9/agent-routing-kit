@@ -35,7 +35,7 @@ routing, not an authorization or policy engine.
 
 ## Existing technical notes
 
-> Deterministic task-routing and context-budget helpers — explicit edges, no deps.
+> Deterministic task-routing and context-budget helpers -- explicit edges, no deps.
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
@@ -123,7 +123,7 @@ The maintainer reviews and owns public release decisions, security posture, and
 final claims.
 
 ---
-**Zain Dana Harper** — small tools with explicit edges.
+**Zain Dana Harper** -- small tools with explicit edges.
 [Portfolio](https://harperz9.github.io) · [HarperZ9](https://github.com/HarperZ9)
 <sub>Built with Claude Code; reviewed, tested, and owned by me.</sub>
 
