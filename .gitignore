@@ -11,3 +11,6 @@ build/
 *.egg-info/
 .coverage
 htmlcov/
+
+# Local-only Claude instructions (global standard: never commit)
+CLAUDE.local.md
