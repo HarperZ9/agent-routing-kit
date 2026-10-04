@@ -1,10 +1,20 @@
-<p align="center"><img src=".github/assets/banner.png" alt="agent-routing-kit" width="100%"></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarperZ9/agent-routing-kit/main/docs/art/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/HarperZ9/agent-routing-kit/main/docs/art/hero-light.svg" alt="agent-routing-kit: Route agent tasks by capability, risk, and context budget. Lines arrive from one side at a toothed ring around a bright core; most pass through and a few stop at the ring with a short cross mark." width="100%">
+</picture>
 
-# Agent Routing Kit
+# agent-routing-kit
 
-![Agent Routing Kit hero](docs/brand/agent-routing-kit-hero.png)
+Route agent tasks by capability, risk, and context budget.
 
-> Route agent tasks by capability, risk, and context budget before loading files.
+```
+python -m pip install -e .
+```
+
+[![version: 0.1.0](https://img.shields.io/badge/version-0.1.0-e6e1d6?style=flat-square&labelColor=1a1712)](https://github.com/HarperZ9/agent-routing-kit/releases/latest)
+[![CI](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/agent-routing-kit/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-e6e1d6?style=flat-square&labelColor=1a1712)](https://github.com/HarperZ9/agent-routing-kit/blob/main/LICENSE)
+![python 3.9+](https://img.shields.io/badge/python-3.9%2B-e6e1d6?style=flat-square&labelColor=1a1712)
 
 Agent Routing Kit is a deterministic routing helper for coding-agent workflows.
 It scores a task against a small capability catalog, marks public/private risk,
