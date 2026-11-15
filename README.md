@@ -1,3 +1,5 @@
+> **Archived.** This tool moved to [HarperZ9/flywheel](https://github.com/HarperZ9/flywheel) on 2026-11-15 and now lives at [`packages/agent-routing-kit`](https://github.com/HarperZ9/flywheel/tree/main/packages/agent-routing-kit). This repository is read-only and is kept for its history, branches and releases.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarperZ9/agent-routing-kit/main/docs/art/hero-dark.svg">
   <img src="https://raw.githubusercontent.com/HarperZ9/agent-routing-kit/main/docs/art/hero-light.svg" alt="agent-routing-kit: Route agent tasks by capability, risk, and context budget. Lines arrive from one side at a toothed ring around a bright core; most pass through and a few stop at the ring with a short cross mark." width="100%">
